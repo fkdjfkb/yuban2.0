@@ -1,0 +1,15 @@
+{
+  "name": "zisu-yuban",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "浙江外国语学院智能语伴首版原型",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch server.js",
+    "start": "node --env-file-if-exists=.env server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,15 @@
+[0:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='浙江外国语学院 · Wug 智能语伴':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=4,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v0];
+[1:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='自然语言输入 · 支持快捷话题':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=3,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v1];
+[2:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='流式回复 · 生成状态清晰可见':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=3,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v2];
+[3:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='语伴式反馈 · 轻量纠错与追问':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=4,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v3];
+[4:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='多语言与练习难度随时切换':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=4,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v4];
+[5:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='推荐短语一键放入输入框':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=3,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v5];
+[6:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='保持上下文继续多轮对话':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=4,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v6];
+[7:v]scale=1296:810:force_original_aspect_ratio=decrease,pad=1440:900:(ow-iw)/2:0:color=0x102f4f,drawtext=fontfile='/System/Library/Fonts/PingFang.ttc':text='移动端自适应 · 输入区始终可用':fontcolor=white:fontsize=30:x=(w-text_w)/2:y=837,trim=duration=5,setpts=PTS-STARTPTS,fps=30,format=yuv420p[v7];
+[v0][v1]xfade=transition=fade:duration=0.6:offset=3.4[x1];
+[x1][v2]xfade=transition=fade:duration=0.6:offset=5.8[x2];
+[x2][v3]xfade=transition=fade:duration=0.6:offset=8.2[x3];
+[x3][v4]xfade=transition=fade:duration=0.6:offset=11.6[x4];
+[x4][v5]xfade=transition=fade:duration=0.6:offset=15.0[x5];
+[x5][v6]xfade=transition=fade:duration=0.6:offset=17.4[x6];
+[x6][v7]xfade=transition=fade:duration=0.6:offset=20.8[outv]
